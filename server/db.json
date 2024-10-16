@@ -1,0 +1,24 @@
+{
+  "todo": [
+    {
+      "id": "78a390d4-e9cd-4498-800c-0e6be11411ef",
+      "title": "Team Meeting",
+      "completed": false
+    },
+    {
+      "id": "0ff676f1-11aa-431b-b919-d18a702703a2",
+      "title": "Check Emails",
+      "completed": true
+    },
+    {
+      "id": "be0d5664-7666-41d0-b609-a4c8b6b71b87",
+      "title": "Finish Angular Task",
+      "completed": true
+    },
+    {
+      "id": "16a876da-d73a-4f18-8b84-0d867de3d657",
+      "title": "Learn a New Skill",
+      "completed": false
+    }
+  ]
+}

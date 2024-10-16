@@ -1,0 +1,31 @@
+.app-title {
+  color: #bfb0d3;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+
+.app-content {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 2.5em;
+  }
+  .app-content {
+    padding: 20px;
+  }
+}
+
+

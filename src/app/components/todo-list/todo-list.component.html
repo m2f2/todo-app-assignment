@@ -1,0 +1,15 @@
+<app-add-todo (todoAdded)="addTodo($event)"></app-add-todo>
+<div class="todo-list">
+  <h2 class="todo-title">Todo List</h2>
+  <ul class="todo-items">
+    @for(todo of todos; track todo.id){
+      <li class="todo-item">
+        <app-todo-item
+        [todo]="todo"
+        (toggleCompletion)="toggleCompletion(todo)"
+        (deleteTodo)="deleteTodo(todo.id)">
+      </app-todo-item>
+      </li>
+    }
+  </ul>
+</div>
